@@ -24,6 +24,10 @@ let newCustomer = {name: "David Payne", email:"DavidTHEPayne47@gmail.com", purch
 
     customers[2].purchases.push("tank top")
 
+// displaying customer info 
+
+    customers.forEach(obj =>console.log(``))
+
 
 
 
