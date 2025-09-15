@@ -26,7 +26,7 @@ let newCustomer = {name: "David Payne", email:"DavidTHEPayne47@gmail.com", purch
 
 // displaying customer info 
 
-    customers.forEach(obj =>console.log(`Name: ${obj.name}`, (`Email: ${obj.email}`, (`Total Purchases: ${obj.purchases}` ))));
+    customers.forEach(obj =>console.log(`Name: ${obj.name} , Email:${obj.email} , Total Purchases:${obj.purchases.length}`));
 
 
 
